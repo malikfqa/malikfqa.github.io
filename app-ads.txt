@@ -1,0 +1,2 @@
+# app-ads.txt for Fahad Qayyum Awan
+google.com, pub-3312582228715255, DIRECT, f08c47fec0942fa0
