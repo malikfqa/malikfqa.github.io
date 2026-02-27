@@ -1,0 +1,11 @@
+title: Fahad Qayyum Awan
+description: Individual developer building Android apps, web tools, utilities, and software projects.
+markdown: kramdown
+
+# IMPORTANT: set baseurl to your repo name (because you are using https://malikfqa.github.io/)
+# If your repo is the USER SITE repo named malikfqa.github.io then baseurl should be empty ""
+# If your repo is a PROJECT site like malikfqa.github.io/<repo-name>, set baseurl: "/<repo-name>"
+baseurl: ""
+
+# Optional, but fine
+url: "https://malikfqa.github.io"
