@@ -6,51 +6,37 @@ description: Freelancer | Developer | Digital Solutions — Android apps, web to
 
 <header class="hero">
   <div class="container">
-    <div class="row align-items-center g-4">
-      <div class="col-lg-8">
+    <div class="row align-items-center">
+
+      <!-- LEFT SIDE -->
+      <div class="col-lg-7 text-center text-lg-start">
         <h1 class="hero-title mb-3">Fahad Qayyum Awan</h1>
-        <p class="hero-subtitle mb-4">Freelancer | Developer | Digital Solutions</p>
-        <p class="mb-4" style="max-width: 48rem; opacity:.9;">
+        <p class="hero-subtitle mb-4">
+          Freelancer | Developer | Digital Solutions
+        </p>
+        <p class="mb-4" style="max-width: 500px;">
           Individual developer building Android apps, web tools, utilities, and software projects.
         </p>
 
-        <div class="d-flex flex-wrap gap-2">
+        <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
           <a class="btn btn-brand btn-lg" href="#contact">Contact Me</a>
           <a class="btn btn-outline-brand btn-lg" href="#pages">View Pages</a>
         </div>
       </div>
 
-      <div class="col-lg-4 hero-mark">
-        <!-- Inline SVG “mosque” mark (no extra files needed) -->
-        <svg viewBox="0 0 512 512" role="img" aria-label="Mosque logo">
-          <defs>
-            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stop-color="rgba(255,255,255,0.95)"/>
-              <stop offset="1" stop-color="rgba(255,255,255,0.70)"/>
-            </linearGradient>
-          </defs>
-
-          <!-- crescent -->
-          <path fill="url(#g)" d="M316 72c-36 6-62 38-56 74 5 31 31 54 63 56-18 18-44 27-71 22-40-8-67-47-59-87 8-41 46-68 85-65 14 1 27 5 38 12z"/>
-
-          <!-- dome -->
-          <path fill="url(#g)" d="M128 232c18-86 88-144 170-144s152 58 170 144H128z"/>
-
-          <!-- main body -->
-          <path fill="url(#g)" d="M112 232h288v176c0 16-13 28-28 28H140c-15 0-28-12-28-28V232z"/>
-
-          <!-- door arch -->
-          <path fill="rgba(15,23,42,0.12)" d="M256 264c-44 0-80 36-80 80v92h160v-92c0-44-36-80-80-80z"/>
-          <path fill="url(#g)" d="M256 280c-35 0-64 29-64 64v92h128v-92c0-35-29-64-64-64z"/>
-
-          <!-- side minarets -->
-          <path fill="url(#g)" d="M76 236h44v200H76V236zm316 0h44v200h-44V236z"/>
-          <path fill="rgba(15,23,42,0.12)" d="M76 236c10-42 22-72 44-88v88H76zm316 0c10-42 22-72 44-88v88h-44z"/>
-
-          <!-- base -->
-          <path fill="rgba(255,255,255,0.72)" d="M72 436h368v24H72v-24z"/>
+      <!-- RIGHT SIDE -->
+      <div class="col-lg-5 hero-mark">
+        <!-- Clean arch SVG -->
+        <svg viewBox="0 0 300 400">
+          <path 
+            d="M150 20 Q260 120 260 240 L260 360 L40 360 L40 240 Q40 120 150 20 Z"
+            fill="none"
+            stroke="rgba(255,255,255,0.7)"
+            stroke-width="6"
+          />
         </svg>
       </div>
+
     </div>
   </div>
 </header>
