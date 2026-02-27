@@ -102,3 +102,26 @@ body{
 }
 
 .muted{ color: var(--muted); }
+
+/* Hero right-side logo */
+.hero-mark{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-mark svg{
+  width: min(320px, 70vw);
+  height: auto;
+  opacity: .92;
+  filter: drop-shadow(0 18px 35px rgba(0,0,0,.18));
+}
+
+@media (max-width: 991.98px){
+  .hero-mark{
+    margin-top: 1.5rem;
+  }
+  .hero-mark svg{
+    width: min(260px, 75vw);
+  }
+}
