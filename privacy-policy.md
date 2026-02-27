@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Support
-description: Support page for apps and services by Fahad Qayyum Awan.
+title: Privacy Policy
+description: Privacy policy for apps and services by Fahad Qayyum Awan.
 ---
 
 <header class="py-5">
   <div class="container">
-    <h1 class="fw-bold mb-2">Support</h1>
-    <p class="muted mb-0"><strong>Developer:</strong> Fahad Qayyum Awan</p>
+    <h1 class="fw-bold mb-2">Privacy Policy</h1>
+    <p class="muted mb-0">
+      <strong>Developer:</strong> Fahad Qayyum Awan &nbsp;•&nbsp;
+      <strong>Contact:</strong> <a class="text-decoration-none fw-semibold" href="mailto:malik.fahad1990@gmail.com">malik.fahad1990@gmail.com</a>
+    </p>
   </div>
 </header>
 
@@ -15,24 +18,33 @@ description: Support page for apps and services by Fahad Qayyum Awan.
   <div class="container">
     <div class="soft-card p-4 p-md-5">
 
-If you need help, bug fixes, or have questions, contact:
+This Privacy Policy explains how information is handled when you use my Android apps and other software/web projects (“Services”).
 
-<div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3 mb-4">
-  <div>
-    <div class="muted">Email</div>
-    <a class="fw-semibold text-decoration-none" href="mailto:malik.fahad1990@gmail.com">malik.fahad1990@gmail.com</a>
-    <div class="muted mt-2">Typical response time: 2–5 business days.</div>
-  </div>
-  <div class="text-md-end">
-    <a class="btn btn-brand btn-lg w-100 w-md-auto" href="mailto:malik.fahad1990@gmail.com?subject=Support%20Request">Email Support</a>
-  </div>
-</div>
+## Information Collection
+I do not knowingly collect personal information such as your name, phone number, or address directly through my apps unless you choose to contact me by email.
 
-## Include in your email
-- App name  
-- Your device model  
-- Android version  
-- What happened + screenshots (if possible)
+## Advertising (Google AdMob)
+Some apps may display ads using Google AdMob. AdMob and its partners may collect and use information such as device identifiers (e.g., Advertising ID), IP address, and app interaction data to deliver and measure ads.
+
+Depending on your location and device settings, ads may be personalized or non-personalized.
+
+## Third-Party Services
+Apps may use third-party services (such as advertising networks) that may collect information used to identify you. Their data handling is governed by their own privacy policies.
+
+## Analytics / Crash Reports
+At this time, I do not use Firebase Analytics or Crashlytics by default. If any specific app uses analytics or crash reporting in the future, the app listing and/or in-app disclosures may be updated accordingly.
+
+## Children’s Privacy
+These Services are intended for a general audience and are not directed to children under 13. I do not knowingly collect personal information from children.
+
+## Data Deletion
+If you contact me and share personal information by email, you may request deletion by emailing: <a class="text-decoration-none fw-semibold" href="mailto:malik.fahad1990@gmail.com">malik.fahad1990@gmail.com</a>
+
+## Changes to This Policy
+I may update this Privacy Policy from time to time. Updates will be posted on this page.
+
+## Contact
+If you have questions about this Privacy Policy, contact: <a class="text-decoration-none fw-semibold" href="mailto:malik.fahad1990@gmail.com">malik.fahad1990@gmail.com</a>
 
     </div>
   </div>
