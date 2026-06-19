@@ -52,7 +52,7 @@ description: Freelancer | Developer | Digital Solutions — Android apps, web to
       </div>
 
       <div class="row g-3">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="soft-card p-4 h-100">
             <h3 class="h5 fw-bold mb-2">Privacy Policy</h3>
             <p class="muted mb-3">Read how information is handled across apps and services.</p>
@@ -60,7 +60,15 @@ description: Freelancer | Developer | Digital Solutions — Android apps, web to
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-4">
+          <div class="soft-card p-4 h-100">
+            <h3 class="h5 fw-bold mb-2">Terms of Service</h3>
+            <p class="muted mb-3">Rules and conditions for using my apps and online features.</p>
+            <a class="btn btn-brand" href="{{ '/terms-of-service' | relative_url }}">Open</a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
           <div class="soft-card p-4 h-100">
             <h3 class="h5 fw-bold mb-2">Support</h3>
             <p class="muted mb-3">Get help, report issues, or request features.</p>
