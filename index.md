@@ -28,7 +28,7 @@ description: Freelancer | Developer | Digital Solutions — Android apps, web to
       <div class="col-lg-5 hero-mark">
         <!-- Clean arch SVG -->
         <svg viewBox="0 0 300 400">
-          <path 
+          <path
             d="M150 20 Q260 120 260 240 L260 360 L40 360 L40 240 Q40 120 150 20 Z"
             fill="none"
             stroke="rgba(255,255,255,0.7)"
@@ -52,7 +52,7 @@ description: Freelancer | Developer | Digital Solutions — Android apps, web to
       </div>
 
       <div class="row g-3">
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-3">
           <div class="soft-card p-4 h-100">
             <h3 class="h5 fw-bold mb-2">Privacy Policy</h3>
             <p class="muted mb-3">Read how information is handled across apps and services.</p>
@@ -60,7 +60,7 @@ description: Freelancer | Developer | Digital Solutions — Android apps, web to
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-3">
           <div class="soft-card p-4 h-100">
             <h3 class="h5 fw-bold mb-2">Terms of Service</h3>
             <p class="muted mb-3">Rules and conditions for using my apps and online features.</p>
@@ -68,11 +68,19 @@ description: Freelancer | Developer | Digital Solutions — Android apps, web to
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-3">
           <div class="soft-card p-4 h-100">
             <h3 class="h5 fw-bold mb-2">Support</h3>
             <p class="muted mb-3">Get help, report issues, or request features.</p>
             <a class="btn btn-brand" href="{{ '/support' | relative_url }}">Open</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="soft-card p-4 h-100">
+            <h3 class="h5 fw-bold mb-2">Delete Account</h3>
+            <p class="muted mb-3">How to permanently delete your Pak Cricket Scorer online account and cloud data.</p>
+            <a class="btn btn-brand" href="{{ '/delete-account' | relative_url }}">Open</a>
           </div>
         </div>
       </div>
