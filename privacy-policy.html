@@ -1,9 +1,3 @@
----
-layout: default
-title: Privacy Policy
-description: Privacy policy for apps and services by Fahad Qayyum Awan.
----
-
 <header class="py-5">
   <div class="container">
     <h1 class="fw-bold mb-2">Privacy Policy</h1>
@@ -12,7 +6,7 @@ description: Privacy policy for apps and services by Fahad Qayyum Awan.
       <strong>Contact:</strong>
       <a class="text-decoration-none fw-semibold" href="mailto:malik.fahad1990@gmail.com">malik.fahad1990@gmail.com</a>
     </p>
-    <p class="muted mb-0 mt-2"><strong>Effective date:</strong> June 2026</p>
+    <p class="muted mb-0 mt-2"><strong>Effective date:</strong> September 2026</p>
   </div>
 </header>
 
@@ -24,47 +18,69 @@ description: Privacy policy for apps and services by Fahad Qayyum Awan.
 
       <h2 class="h4 fw-bold mt-4">Summary</h2>
       <ul>
-        <li>Most app data (matches, scores, statistics) is stored <strong>locally on your device</strong>.</li>
-        <li><strong>Sign-in and online teams are optional.</strong> You can use core scoring features without an account.</li>
-        <li>If you sign in and publish a team online, limited data is stored on secure cloud servers.</li>
+        <li>Most scoring data (live matches, ball-by-ball detail, local history) is stored <strong>locally on your device</strong>.</li>
+        <li><strong>Sign-in and online features are optional.</strong> You can score matches without an account.</li>
+        <li>If you sign in, you may publish a team and/or a player profile online, and confirmed match results may update cloud team and player records.</li>
         <li>Some apps may show ads through Google AdMob.</li>
       </ul>
 
       <h2 class="h4 fw-bold mt-4">Information Stored Locally on Your Device</h2>
       <p>Unless you choose optional online features, Pak Cricket Scorer stores data on your device, such as:</p>
       <ul>
-        <li>Team names, player names, and captain names</li>
+        <li>Team names, player names, photos stored on the device, and captain names</li>
         <li>Match details, scores, statistics, and match history</li>
-        <li>Generated match report PDFs (in the app’s private storage)</li>
+        <li>Generated match report PDFs and shareable images (in the app’s private storage or media you save/share)</li>
         <li>Backup files you create (stored on your device unless you share them)</li>
       </ul>
-      <p>This local data is not uploaded to my servers unless you explicitly use online publish or backup/share features.</p>
+      <p>This local data is not uploaded to my servers unless you explicitly use online publish, online result confirmation, or backup/share features.</p>
 
       <h2 class="h4 fw-bold mt-4">Optional Account Sign-In (Google)</h2>
-      <p>Some features (such as publishing a team online) may require you to sign in with Google. This is <strong>optional</strong>.</p>
+      <p>Online features require you to sign in with Google. This is <strong>optional</strong>.</p>
       <p>If you sign in, I receive and process through third-party authentication services:</p>
       <ul>
         <li>Your <strong>email address</strong> (from your Google account)</li>
         <li>A <strong>user account identifier</strong> used to link your account to online features</li>
       </ul>
-      <p>I use this information only to provide account-related and online team features. I do not sell your personal information.</p>
+      <p>I use this information only to provide account-related and online features. I do not sell your personal information.</p>
 
       <h2 class="h4 fw-bold mt-4">Optional Online Teams (Cloud)</h2>
-      <p>If you choose to publish a team online in Pak Cricket Scorer, the following may be stored on cloud servers operated by my service providers:</p>
+      <p>If you publish a team online, the following may be stored on cloud servers operated by my service providers (for example, Supabase):</p>
       <ul>
         <li><strong>Public team ID</strong> you choose (so others can find your team)</li>
-        <li><strong>Team name</strong></li>
-        <li><strong>Player names</strong> in that published squad</li>
+        <li><strong>Team name</strong> and optional <strong>team logo</strong> (if you upload one)</li>
+        <li><strong>Player names</strong> (and linked online player IDs, if any) in that published squad</li>
         <li><strong>Account identifier</strong> linking the published team to your sign-in</li>
-        <li><strong>Last activity date</strong> for that online team</li>
+        <li><strong>Last activity date</strong> for retention</li>
+        <li><strong>Team win/loss/tie counts</strong> and <strong>match result history lines</strong> (scores, result text, format, venue, date) after a result is <strong>confirmed online</strong></li>
       </ul>
-      <p><strong>Match scores and full match history are not uploaded</strong> when you publish a team online. Other users can import your published squad by public team ID; they do not receive your private match data.</p>
+      <p><strong>Publishing a team alone does not upload full ball-by-ball match detail.</strong> Other users can find/import a published squad by public team ID. Confirmed online results may appear on that team’s public online record.</p>
       <p>Limits that apply to online teams:</p>
       <ul>
         <li><strong>One Google account</strong> may publish <strong>one</strong> active online team at a time.</li>
-        <li>Online teams with <strong>no update for 90 days</strong> may be <strong>automatically deleted</strong> from our servers.</li>
+        <li>Online teams with <strong>no activity for 180 days</strong> (no publish/update and no confirmed online match involving the team) may be <strong>automatically deleted</strong> from our servers, including related online roster and match-history data for that team.</li>
         <li>You may <strong>remove your team from online</strong> at any time in the app.</li>
       </ul>
+
+      <h2 class="h4 fw-bold mt-4">Optional Online Player Profiles (Cloud)</h2>
+      <p>If you create a public player profile, we may store:</p>
+      <ul>
+        <li><strong>Public player ID</strong>, display name, optional city, batting/bowling style</li>
+        <li>Optional <strong>profile photo</strong></li>
+        <li><strong>Account identifier</strong> (one active profile per Google account)</li>
+        <li><strong>Career summary stats</strong> (for example matches played, runs, wickets, highest score, best bowling, last-match summary) updated only after <strong>confirmed</strong> online matches where your profile is linked on a published team</li>
+        <li><strong>Last activity date</strong> for retention</li>
+      </ul>
+      <p>Others may find your profile by public player ID. Profiles with <strong>no activity for 180 days</strong> may be <strong>automatically deleted</strong>.</p>
+
+      <h2 class="h4 fw-bold mt-4">Online Match Result Confirmation</h2>
+      <p>When both teams in a match are published online, a signed-in user may send a result for confirmation:</p>
+      <ul>
+        <li>If you own one of the teams, the other team’s owner is asked to accept or reject.</li>
+        <li>If you are a signed-in neutral scorer (you own neither team), <strong>both</strong> team owners must accept before online records update.</li>
+        <li>Guest users (not signed in) keep the match <strong>local only</strong>.</li>
+      </ul>
+      <p>While a confirmation is pending, temporary data may be stored (scores, result text, optional venue/format, and limited linked-player performance lines needed to update careers). That temporary data is removed after successful confirmation, or discarded on reject, or removed if still unresolved after about <strong>30 days</strong> from creation (resending does not extend that window).</p>
+      <p>Accepted confirmations update team online records and linked player career summaries. Rejected or expired requests do not.</p>
 
       <h2 class="h4 fw-bold mt-4">Advertising (Google AdMob)</h2>
       <p>Some apps may display advertisements provided by Google AdMob. AdMob and its partners may collect and process information such as:</p>
@@ -83,7 +99,7 @@ description: Privacy policy for apps and services by Fahad Qayyum Awan.
       <p>Apps may use third-party services that process data under their own privacy policies, including:</p>
       <ul>
         <li><strong>Google</strong> — sign-in (Google account)</li>
-        <li><strong>Supabase</strong> — cloud storage for optional online team features</li>
+        <li><strong>Supabase</strong> — cloud database and file storage for optional online features</li>
         <li><strong>Google AdMob</strong> — advertising</li>
       </ul>
       <p>I do not control all data practices of these providers. Please review their policies for more information.</p>
@@ -91,7 +107,8 @@ description: Privacy policy for apps and services by Fahad Qayyum Awan.
       <h2 class="h4 fw-bold mt-4">Data Deletion</h2>
       <p>You can:</p>
       <ul>
-        <li><strong>Remove your team from online</strong> in the app (deletes that team’s data from our servers)</li>
+        <li><strong>Remove your team from online</strong> in the app</li>
+        <li><strong>Update or stop using</strong> your online player profile (or contact me to delete it)</li>
         <li><strong>Sign out</strong> of your online account in the app</li>
         <li><strong>Uninstall the app</strong> to remove local data from your device (subject to your device/OS behavior)</li>
         <li><strong>Contact me</strong> to request deletion of account-related or online data</li>
@@ -99,6 +116,7 @@ description: Privacy policy for apps and services by Fahad Qayyum Awan.
       <p>Email:
         <a class="text-decoration-none fw-semibold" href="mailto:malik.fahad1990@gmail.com">malik.fahad1990@gmail.com</a>
       </p>
+      <p>Automatic deletion: inactive online teams and player profiles after <strong>180 days</strong> without activity; unresolved confirmation requests after about <strong>30 days</strong>.</p>
       <p>For data collected by Google AdMob or Google Sign-In, please also use Google’s account and privacy controls where applicable.</p>
 
       <h2 class="h4 fw-bold mt-4">Data Security</h2>
@@ -113,7 +131,7 @@ description: Privacy policy for apps and services by Fahad Qayyum Awan.
 
       <h2 class="h4 fw-bold mt-4">Your Privacy Rights</h2>
       <p>Depending on your location (such as the European Economic Area or California), you may have rights under applicable privacy laws, including access, correction, deletion, or restriction of processing.</p>
-      <p>To exercise rights related to online account or published team data, contact me at the email above. For AdMob or Google account data, refer to Google’s privacy tools and policies.</p>
+      <p>To exercise rights related to online account, team, or player profile data, contact me at the email above. For AdMob or Google account data, refer to Google’s privacy tools and policies.</p>
 
       <h2 class="h4 fw-bold mt-4">Changes to This Policy</h2>
       <p>I may update this Privacy Policy from time to time. Updates will be posted on this page with a revised effective date.</p>
